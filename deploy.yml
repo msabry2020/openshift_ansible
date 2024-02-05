@@ -4,7 +4,7 @@
   tasks:
    - name: Create a new namespace
      redhat.openshift.k8s:
-       name: aap_msabry
+       name: msabry
        api_version: v1
        kind: Namespace
        state: present
